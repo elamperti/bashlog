@@ -143,7 +143,7 @@ _bashlog ()
         BL_MESSAGE_LEVEL="INFO"
     fi
 
-    BL_MESSAGE=$2
+    BL_MESSAGE=${@:2}
 
     IFS=$'\n'
 
